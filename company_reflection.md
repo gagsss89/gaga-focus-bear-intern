@@ -17,11 +17,11 @@ Supporting tools like Focus Bear gives everyone fair chance to do their best, wh
 
 ## How does Focus Bear's work align with your personal values or interests?
 
-I have people with disabilities in my environment, and I’m passionate about contributing to solutions that make a real difference in people’s lives. Being part of a company that creates meaningful impact aligns perfectly with my values of empathy, inclusion, and making technology work for everyone.
+I have people with disabilities in my environment, one of them is my son who has a hearing impairment, and I’ve seen how much supportive technology can improve communication and confidence. He is very young but is able to speak and communicate like every other child his age. Being part of a company that creates meaningful impact aligns perfectly with my values of empathy, inclusion, and making technology do its best to help people in their everyday lives.
 
 ## Do you personally relate to any of the challenges that Focus Bear aims to solve?
 
-Yes, I can personally relate. I know people with disabilities who face challenges accessing the right support, tools, or technology to make daily life easier. Seeing their struggles has made me passionate about helping provide solutions that improve their independence and quality of life.
+I can personally relate to Focus Bear’s challenges because I also get distracted while working and sometimes forget to take breaks. I especially like that the app reminds you to  pause, breathe, and take care of yourself. It’s healthy and helps prevent burnout. The app-blocking feature is also a game changer because it helps you stay focused and avoid distractions from social media. 
 
 
 
