@@ -13,20 +13,23 @@ I try to understand that everyone has a different setup and way of working, and 
 ## Task
 
 - First-Person Account
-I read an article by someone with ADHD who shared how they manage productivity.  
+
+  I read an article called, [My Daily Work Routine and 4 Productivity Tools That Help Me Get Things Done](https://witanddelight.com/2025/02/work-routine-productivity-tools-for-adhd/),
+  written by someone with ADHD who shared how they manage productivity.  
 They learned to stop fighting their natural rhythm and instead created systems that work with their brain.  
 They use simple tools like the **Notes app**, **Reminders**, **Notion**, and **pen and paper** to capture ideas and tasks.  
 They also use four key tools:
 
-    **Planner** – to plan weekly details
+    **Planner** - to plan weekly details
 
-    **Timer** – for focus sessions 
+    **Timer** - for focus sessions 
 
-    **Brick** – to block distracting phone apps
+    **Brick** - to block distracting phone apps
 
-    **Headphones** – to reduce noise
+    **Headphones** - to reduce noise
 
-The author realized that productivity isn’t about working harder, but about finding balance.
+  I liked the idea of not trying to follow complex systems, but creating routines that actually fit your own brain.  
+    I can say that I also work better when I keep things organized, clear and minimal.
 
 - Suggested Improvement for Focus Bear
     
