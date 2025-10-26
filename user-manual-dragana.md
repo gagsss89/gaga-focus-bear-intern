@@ -28,7 +28,7 @@
 ## Collaboration & Teamwork
 
 - I work best in a team:
-    - When i understand the task, and the specific responsibilities assigned to each member.
+    - When I understand the task, and the specific responsibilities assigned to each member.
     - When the team is relaxed and we can joke and communicate openly.
     - When I have prepared well for the task.
   
@@ -37,10 +37,10 @@
     - Unclear instructions
     - Not responding to emails or calls
   
-- If i seem quiet in a meeting, it usually means:
+- If I seem quiet in a meeting, it usually means:
     
     - I am focused on understanding the task
-    - Picking up every detail, trying to remember everything ( i don't usually ask a lot of questions).
+    - Picking up every detail, trying to remember everything ( I don't usually ask a lot of questions).
   
 
 ## Focus & Productivity
@@ -53,7 +53,7 @@
 ## Feedback & Growth
 
 - I like feedback to be honest and direct but at the same time gentle.
-- When i make a mistake, the best way to let me know is directly. I would also appreciate helping me figure out the best way to correct the mistakes.
+- When I make a mistake, the best way to let me know is directly. I would also appreciate helping me figure out the best way to correct the mistakes.
 - I appreciate it when teammates
 
   - Are willing to help when needed.
