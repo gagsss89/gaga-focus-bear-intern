@@ -46,7 +46,7 @@
 ## Focus & Productivity
 
 - I stay focused by taking short breaks to maintain concentration.
-- Things that distract me the most is interruption with unrelated issues.
+- Things that distract me the most are interruptions with unrelated issues.
 - The best way to support my productivity is to tell your expectations clearly and to trust me to fulfill my responsibilities.
 
 
