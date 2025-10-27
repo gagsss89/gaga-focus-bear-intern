@@ -3,7 +3,7 @@
 ## Reflection
 
 What steps can you take to ensure you handle data securely in your daily tasks?  
-- Ican try to keep all information private and safe. For example, I don’t open or share work files on public Wi-Fi, and I only use secure websites like GitHub or Focus Bear. I also make sure to lock my laptop when I step away and never type personal or company details into AI tools or online forms.
+- I can try to keep all information private and safe. For example, I don’t open or share work files on public Wi-Fi, and I only use secure websites like GitHub or Focus Bear. I also make sure to lock my laptop when I step away and never type personal or company details into AI tools or online forms.
 
 How should you store, share, and dispose of sensitive information safely?  
 - I save important files in protected folders on my laptop. If I need to share something, I send it only to the right person and through safe apps, not social media or messages. When I delete a file, I make sure it’s really gone and not still in my recycle bin.
