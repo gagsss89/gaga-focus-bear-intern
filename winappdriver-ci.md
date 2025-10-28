@@ -63,6 +63,27 @@ driver.quit();
 ```
 
 
+## Reflection
+
+How does running tests in CI/CD help maintain application stability? 
+- Running automated tests in CI/CD makes sure that every change is tested right away.  
+If something breaks, the pipeline stops before the issue reaches real users.  
+This keeps the application stable and reduces production bugs.
+
+What are the challenges of running GUI-based tests in CI/CD pipelines? 
+- GUI tests require a visible screen and can be slower and harder to run on remote machines.  
+They depend on timing, UI elements, and environment setup, which can make them less stable in CI.
+
+How can flaky tests be handled in a CI/CD environment? 
+- We can retry failed tests, improve waiting conditions, fix unstable locators, and monitor failures over time.  
+Flaky tests should be reviewed and improved so they don’t block deployments.
+
+What would be the next steps to fully integrate Focus Bear’s automated tests into its deployment pipeline? 
+- Set up a Windows test environment in CI, run tests automatically on each update,  
+generate reports for the team, and stop deployment if tests fail.  
+Better logging and screenshots would also help debug failures faster.
+
+
 
 
 
