@@ -9,7 +9,7 @@ How can you improve your workflow using Kanban principles?
 - I can improve my workflow by keeping my tasks organized and always updating their status on the board. I will also try to limit how many tasks I work on at the same time so I can complete them faster and avoid getting stuck. Checking the board regularly helps me stay on track and understand what my priorities are. These small changes help me enjoy my work without feeling overwhelmed.
 
 
-## Task
+## Task – Kanban Board
 
 
 Check out Focus Bear’s Kanban board and note how tasks are structured. 
@@ -45,13 +45,7 @@ This will help the team follow my work even if I cannot directly update the Kanb
 It also reduces confusion and keeps everyone aligned on what has been completed.
 
 
----
 
-**Kanban Board Screenshot**
 
-Below is the screenshot of the Focus Bear Windows App Roadmap Kanban board that I reviewed in GitHub Projects.  
-It shows how tasks are structured based on priority levels and business stages.
-
-[Windows app roadmap Kanban board](https://github.com/.../image.png)![img.png](img.png)
 
 
