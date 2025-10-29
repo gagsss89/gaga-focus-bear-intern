@@ -7,6 +7,7 @@ A good structure makes E2E tests easy to read, easy to use, and easy to maintain
 We use the Page Object Model (POM) to organize each application page with its web elements and actions. This reduces duplicated code and simplifies updates when the UI changes.
 
 Typical folder structure:
+
 • pages - locators and methods for each page• step_definitions - connection between Gherkin steps and code  
 • features - feature files grouped by modules (Login, Profile, Settings)  
 • runner - test runner setup  
@@ -60,8 +61,10 @@ This approach reduces duplicated code and makes the test framework more organize
 Page Object Model (POM) is a way to organize automation code so that tests are clean and easy to maintain.  
 Instead of writing locators and UI actions directly in test files, we store them inside special classes.
 
-Each page of the application has its own class in the "pages" folder.  
+Each page of the application has its own class in the "pages" folder. 
+
 That class contains:
+
 • locators for elements on that page  
 • reusable methods for actions (click, enter text, select, etc.)
 
@@ -80,6 +83,7 @@ Refactoring means improving the structure of the test without changing what it d
 The goal is to make tests easier to read, update, reduce duplication and make the automation framework more stable.
 
 In E2E automation, we refactor by removing repeated code and moving it into:
+
 • Page Object methods  
 • Helper (utility) functions  
 • Background section in feature files  
