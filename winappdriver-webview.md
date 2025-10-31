@@ -5,6 +5,7 @@
 **WebView Detection Results (Using Inspect.exe)**
 
 I used the Inspect.exe tool to examine UI elements inside the Focus Bear app.
+
 (https://github.com/gagsss89/gaga-focus-bear-intern/blob/main/FB%20Inspect.png)
 
 When hovering the time picker element, I found:
@@ -57,23 +58,23 @@ We first check what contexts are available, then select the correct one.
 ###  Example (Java + Appium)
 
 
-        // Show all available contexts
-        System.out.println(driver.getContextHandles());
+    // Show all available contexts
+    System.out.println(driver.getContextHandles());
         
-        // Switch to WebView context
-        for (String context : driver.getContextHandles()) {
-        if (context.contains("WEBVIEW")) {
-        driver.context(context); 
-        // Now we can use CSS/XPath selectors
-        break;
-        }
-        }
+    // Switch to WebView context
+    for (String context : driver.getContextHandles()) {
+    if (context.contains("WEBVIEW")) {
+    driver.context(context); 
+    // Now we can use CSS/XPath selectors
+    break;
+    }
+    }
 
-        // Example action inside the WebView
-        driver.findElement(By.cssSelector("input[type='text']")).sendKeys("07:00 AM");
+    // Example action inside the WebView
+    driver.findElement(By.cssSelector("input[type='text']")).sendKeys("07:00 AM");
 
-        // Switch back to native context
-        driver.context("NATIVE_APP");
+    // Switch back to native context
+    driver.context("NATIVE_APP");
 
 ---
  
@@ -81,7 +82,7 @@ We first check what contexts are available, then select the correct one.
 
 This test shows how to switch into the WebView context and interact with a UI element inside the Focus Bear app (React content). The example clicks a button inside the WebView.
 
-### Java + Appium Example
+### Example (Java + Appium)
 
 
     @Test
@@ -107,7 +108,7 @@ This test shows how to switch into the WebView context and interact with a UI el
 **Verifying That WinAppDriver Can Extract Text and Elements From the WebView**
 
 
-### Example Test (Java + Appium)
+### Example (Java + Appium)
 
 
     @Test
