@@ -84,8 +84,8 @@ This test shows how to switch into the WebView context and interact with a UI el
 ### Java + Appium Example
 
 
-        @Test
-        public void clickWebViewButton() throws InterruptedException {
+    @Test
+    public void clickWebViewButton() throws InterruptedException {
 
     // Switch into WebView context
     for (String context : driver.getContextHandles()) {
