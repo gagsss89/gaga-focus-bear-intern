@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c912eddf-359a-4434-9f29-527636434a5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gaga-focus-bear-intern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git_understanding.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,7 +77,7 @@
       <workItem from="1761300024714" duration="6986000" />
       <workItem from="1761414177112" duration="30500000" />
       <workItem from="1761754703462" duration="17834000" />
-      <workItem from="1761845698089" duration="24131000" />
+      <workItem from="1761845698089" duration="25887000" />
     </task>
     <task id="LOCAL-00001" summary="add internship time plan">
       <option name="closed" value="true" />
@@ -362,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762180277113</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Resolve merge conflict in README.md">
+      <option name="closed" value="true" />
+      <created>1762181077952</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1762181077952</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,9 +386,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="add data privacy reflection" />
-    <MESSAGE value="fix data privacy reflection" />
-    <MESSAGE value="add agile principles task" />
     <MESSAGE value="add agile roles task" />
     <MESSAGE value="add kanban workflow task" />
     <MESSAGE value="fix kanban workflow task" />
@@ -406,6 +408,9 @@
     <MESSAGE value="add new line - conflict test" />
     <MESSAGE value="feature branch update - conflict test" />
     <MESSAGE value="feat conflicting change from feature branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat conflicting change from feature branch" />
+    <MESSAGE value="Merge branch 'refs/heads/feature/conflict-test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml&#10;#&#9;README.md&#10;" />
+    <MESSAGE value="Merge branch 'refs/heads/feature/conflict-test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml&#10;#&#9;README.md" />
+    <MESSAGE value="Resolve merge conflict in README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolve merge conflict in README.md" />
   </component>
 </project>
