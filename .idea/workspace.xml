@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c912eddf-359a-4434-9f29-527636434a5d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/conflict-test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gagsss89&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gagsss89/gaga-focus-bear-intern.git&quot;,
+    &quot;accountId&quot;: &quot;070caaf5-afdb-4f35-805b-e6df2278a6a4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="34VQtJhane0xRBEuOSa5hmNjAEm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c912eddf-359a-4434-9f29-527636434a5d" name="Changes" comment="" />
+      <created>1761296475755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761296475755</updated>
+      <workItem from="1761296477347" duration="571000" />
+      <workItem from="1761298080653" duration="1880000" />
+      <workItem from="1761300024714" duration="6986000" />
+      <workItem from="1761414177112" duration="30500000" />
+      <workItem from="1761754703462" duration="17834000" />
+      <workItem from="1761845698089" duration="23417000" />
+    </task>
+    <task id="LOCAL-00001" summary="add internship time plan">
+      <option name="closed" value="true" />
+      <created>1761297030799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761297030799</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add understanding Focus Bear mission">
+      <option name="closed" value="true" />
+      <created>1761299954297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761299954298</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add user manual for dragana">
+      <option name="closed" value="true" />
+      <created>1761338793488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761338793488</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add working with vulnerable population">
+      <option name="closed" value="true" />
+      <created>1761417515449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761417515449</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update company reflection with personal story and FB features">
+      <option name="closed" value="true" />
+      <created>1761503789502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761503789502</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added article link and personal connection">
+      <option name="closed" value="true" />
+      <created>1761505339592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761505339592</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix typos">
+      <option name="closed" value="true" />
+      <created>1761505723785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761505723785</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix typos">
+      <option name="closed" value="true" />
+      <created>1761505808159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761505808160</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add AI usage guidelines">
+      <option name="closed" value="true" />
+      <created>1761565007576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761565007576</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add OHS laptop ergonomics file">
+      <option name="closed" value="true" />
+      <created>1761567696795</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761567696795</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add data privacy reflection">
+      <option name="closed" value="true" />
+      <created>1761569918299</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761569918299</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix data privacy reflection">
+      <option name="closed" value="true" />
+      <created>1761569939934</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761569939934</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add agile principles task">
+      <option name="closed" value="true" />
+      <created>1761587044005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1761587044005</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add agile roles task">
+      <option name="closed" value="true" />
+      <created>1761599805974</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1761599805974</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add kanban workflow task">
+      <option name="closed" value="true" />
+      <created>1761647424992</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761647424993</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix kanban workflow task">
+      <option name="closed" value="true" />
+      <created>1761647681354</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1761647681355</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add winappdriver-ci">
+      <option name="closed" value="true" />
+      <created>1761655527079</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1761655527080</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated winappdriver-ci">
+      <option name="closed" value="true" />
+      <created>1761655951288</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1761655951288</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add winappdriver-flaky-tests">
+      <option name="closed" value="true" />
+      <created>1761677705800</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1761677705800</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add learning goals file">
+      <option name="closed" value="true" />
+      <created>1761727739934</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1761727739934</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add winappdriver test structure task">
+      <option name="closed" value="true" />
+      <created>1761754909539</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1761754909539</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix winappdriver test structure task">
+      <option name="closed" value="true" />
+      <created>1761756169247</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1761756169247</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add winappdriver-debugging file">
+      <option name="closed" value="true" />
+      <created>1761773970881</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1761773970881</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add agile ceremonies file">
+      <option name="closed" value="true" />
+      <created>1761818642043</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1761818642043</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add professionalism-reflection file">
+      <option name="closed" value="true" />
+      <created>1761822137571</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1761822137571</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add cybersecurity guidelines file">
+      <option name="closed" value="true" />
+      <created>1761824495735</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1761824495735</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add help strategy">
+      <option name="closed" value="true" />
+      <created>1761839665226</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1761839665226</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add winappdriver-webview file">
+      <option name="closed" value="true" />
+      <created>1761910887399</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1761910887399</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix winappdriver-webview file">
+      <option name="closed" value="true" />
+      <created>1761911049016</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1761911049016</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix winappdriver-webview file">
+      <option name="closed" value="true" />
+      <created>1761911233582</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1761911233582</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add competitive landscape">
+      <option name="closed" value="true" />
+      <created>1762169370431</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1762169370431</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add new line - conflict test">
+      <option name="closed" value="true" />
+      <created>1762178041593</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1762178041593</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feature branch update - conflict test">
+      <option name="closed" value="true" />
+      <created>1762179446236</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1762179446236</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feature branch update - conflict test">
+      <option name="closed" value="true" />
+      <created>1762179507577</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1762179507577</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="add OHS laptop ergonomics file" />
+    <MESSAGE value="add data privacy reflection" />
+    <MESSAGE value="fix data privacy reflection" />
+    <MESSAGE value="add agile principles task" />
+    <MESSAGE value="add agile roles task" />
+    <MESSAGE value="add kanban workflow task" />
+    <MESSAGE value="fix kanban workflow task" />
+    <MESSAGE value="add winappdriver-ci" />
+    <MESSAGE value="updatd winappdriver-ci" />
+    <MESSAGE value="updated winappdriver-ci" />
+    <MESSAGE value="add winappdriver-flaky-tests" />
+    <MESSAGE value="add learning goals file" />
+    <MESSAGE value="add winappdriver test structure task" />
+    <MESSAGE value="fix winappdriver test structure task" />
+    <MESSAGE value="add winappdriver-debugging file" />
+    <MESSAGE value="add agile ceremonies file" />
+    <MESSAGE value="add professionalism-reflection file" />
+    <MESSAGE value="add cybersecurity guidelines file" />
+    <MESSAGE value="add help strategy" />
+    <MESSAGE value="add winappdriver webview.md" />
+    <MESSAGE value="add winappdriver-webview file" />
+    <MESSAGE value="fix winappdriver-webview file" />
+    <MESSAGE value="add competitive landscape" />
+    <MESSAGE value="add new line - conflict test" />
+    <MESSAGE value="feature branch update - conflict test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature branch update - conflict test" />
+  </component>
+</project>

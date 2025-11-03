@@ -1,0 +1,33 @@
+Index: winappdriver-ui.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/winappdriver-ui.md b/winappdriver-ui.md
+new file mode 100644
+--- /dev/null	(date 1761912749706)
++++ b/winappdriver-ui.md	(date 1761912749706)
+@@ -0,0 +1,23 @@
++# Interacting with Native Windows UI Elements
++
++## Task
++
++**Use inspect.exe or Appium Desktop to locate UI elements**
++
++### Inspect.exe Example: Locating a UI Element
++
++Here is an example where I inspected the **Select Language** dropdown inside the Focus Bear Windows app.
++
++Inspect.exe shows useful element properties:
++
++- **Name**: "English"
++- **ControlType**: ComboBox Item
++- **AutomationId**: (none available here)
++- **FrameworkId**: "WPF"
++- **ClassName**: "ComboBox"
++
++📌 Based on these properties, a valid WinAppDriver locator could be:
++
++```java
++driver.findElement(By.name("English")).click();
++
