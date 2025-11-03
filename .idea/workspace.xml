@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c912eddf-359a-4434-9f29-527636434a5d" name="Changes" comment="" />
+    <list default="true" id="c912eddf-359a-4434-9f29-527636434a5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gaga-focus-bear-intern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,7 +80,7 @@
       <workItem from="1761300024714" duration="6986000" />
       <workItem from="1761414177112" duration="30500000" />
       <workItem from="1761754703462" duration="17834000" />
-      <workItem from="1761845698089" duration="23417000" />
+      <workItem from="1761845698089" duration="24131000" />
     </task>
     <task id="LOCAL-00001" summary="add internship time plan">
       <option name="closed" value="true" />
@@ -348,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762179507577</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="feat conflicting change from feature branch">
+      <option name="closed" value="true" />
+      <created>1762180277113</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1762180277113</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +381,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="add OHS laptop ergonomics file" />
     <MESSAGE value="add data privacy reflection" />
     <MESSAGE value="fix data privacy reflection" />
     <MESSAGE value="add agile principles task" />
@@ -392,6 +405,7 @@
     <MESSAGE value="add competitive landscape" />
     <MESSAGE value="add new line - conflict test" />
     <MESSAGE value="feature branch update - conflict test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature branch update - conflict test" />
+    <MESSAGE value="feat conflicting change from feature branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat conflicting change from feature branch" />
   </component>
 </project>
