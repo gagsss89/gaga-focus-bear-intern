@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c912eddf-359a-4434-9f29-527636434a5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/git_understanding.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c912eddf-359a-4434-9f29-527636434a5d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/15517/IdeaProjects/gaga-focus-bear-intern",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +75,7 @@
       <workItem from="1761300024714" duration="6986000" />
       <workItem from="1761414177112" duration="30500000" />
       <workItem from="1761754703462" duration="17834000" />
-      <workItem from="1761845698089" duration="25887000" />
+      <workItem from="1761845698089" duration="26648000" />
     </task>
     <task id="LOCAL-00001" summary="add internship time plan">
       <option name="closed" value="true" />
@@ -367,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762181077952</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add git understanding file">
+      <option name="closed" value="true" />
+      <created>1762182643887</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1762182643887</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +392,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="add agile roles task" />
     <MESSAGE value="add kanban workflow task" />
     <MESSAGE value="fix kanban workflow task" />
     <MESSAGE value="add winappdriver-ci" />
@@ -411,6 +416,7 @@
     <MESSAGE value="Merge branch 'refs/heads/feature/conflict-test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml&#10;#&#9;README.md&#10;" />
     <MESSAGE value="Merge branch 'refs/heads/feature/conflict-test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/vcs.xml&#10;#&#9;README.md" />
     <MESSAGE value="Resolve merge conflict in README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolve merge conflict in README.md" />
+    <MESSAGE value="add git understanding file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add git understanding file" />
   </component>
 </project>
