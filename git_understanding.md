@@ -58,3 +58,44 @@ The screenshot below shows the final result of resolving the merge conflict:
 
 
 Merge Conflict Exercise Completed Successfully 🎉
+
+---
+
+## Branching Reflection
+
+**Why is pushing directly to main problematic?**
+
+Main is the main source of truth for the entire project.  
+If someone pushes unfinished or broken code to main:
+- It can break the project for everyone
+- Other teammates are blocked from continuing work
+- Bugs can go to production quickly
+
+Teams protect main to keep the project stable.
+
+---
+
+**How do branches help with reviewing code?**
+
+Branches allow everyone to work separately on new features or fixes.  
+Before merging into main:
+- Code can be reviewed through Pull Requests
+- Tests can be run without risk
+- QA can validate changes safely
+
+This improves collaboration and quality.
+
+---
+
+**What if two people change the same file in different branches?**
+
+When merging:
+- Git detects conflicts
+- Developer must choose what stays
+
+This prevents accidental overwrites 👏
+
+---
+
+**Branches help teams work safely without breaking each other’s work, allow proper review, and keep main clean and stable.**
+
