@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c912eddf-359a-4434-9f29-527636434a5d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c912eddf-359a-4434-9f29-527636434a5d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +75,7 @@
       <workItem from="1761300024714" duration="6986000" />
       <workItem from="1761414177112" duration="30500000" />
       <workItem from="1761754703462" duration="17834000" />
-      <workItem from="1761845698089" duration="28312000" />
+      <workItem from="1761845698089" duration="28904000" />
     </task>
     <task id="LOCAL-00001" summary="add internship time plan">
       <option name="closed" value="true" />
