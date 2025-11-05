@@ -93,7 +93,7 @@ When merging:
 - Git detects conflicts
 - Developer must choose what stays
 
-This prevents accidental overwrites 👏
+
 
 ---
 
