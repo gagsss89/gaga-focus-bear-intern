@@ -57,7 +57,7 @@ The screenshot below shows the final result of resolving the merge conflict:
 
 
 
-Merge Conflict Exercise Completed Successfully 🎉
+Merge Conflict Exercise Completed Successfully 
 
 ---
 
@@ -187,3 +187,25 @@ Using `git bisect` is:
 - More accurate because it finds the exact commit where the bug was introduced
 - Less stressful than manually jumping through every commit to search for the issue
 
+---
+
+## Writing Meaningful Commit Messages
+
+
+I explored commit messages in the open-source React project on GitHub.  (https://github.com/facebook/react/commits/main)
+
+By reviewing real commits from professional developers, I learned what makes a commit message helpful versus confusing.
+
+### What I learned from good commit messages
+- They clearly explain what changed and why
+- They include context such as the feature name or component affected
+- They often reference an issue or pull request number (e.g. #35048), making it easy to track related work
+- Using tags like `fix:`, `docs:`, or `[Fiber]` helps identify the type of change quickly
+
+Good commit messages improve communication, make code reviews faster, and help anyone understand the purpose of a change without reading the code.
+
+### What I learned from bad commit messages
+- Vague messages like “update” or “changes” provide no useful information
+- Poor messages make debugging harder, especially when searching history to locate bugs
+- Team members may waste time trying to understand what was actually done
+- They hurt long-term project maintainability
