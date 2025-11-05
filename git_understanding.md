@@ -167,3 +167,23 @@ How specific it is, every line has a detailed history!
 
 
 
+##  Git Bisect Reflection
+
+### What does `git bisect` do?
+`git bisect` helps find exactly which commit introduced a bug by using binary search to move through your commit history.  
+Instead of checking every commit one by one, Git automatically jumps to the middle commit and asks if the bug is present.  
+Then it continues narrowing down until it finds the first bad commit.
+
+### When would you use it in a real-world debugging situation?
+- When a bug appears and you don’t know which change caused it
+- When there are many commits between the last working version and the broken version
+- When multiple developers are contributing and you need to trace where the problem began
+- When automated tests suddenly start failing and you must locate the cause quickly
+
+### How does it compare to manually reviewing commits?
+Using `git bisect` is:
+- Faster because Git tests fewer commits
+- More efficient because it avoids guessing
+- More accurate because it finds the exact commit where the bug was introduced
+- Less stressful than manually jumping through every commit to search for the issue
+
