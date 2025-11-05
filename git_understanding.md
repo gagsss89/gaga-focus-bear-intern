@@ -209,3 +209,34 @@ Good commit messages improve communication, make code reviews faster, and help a
 - Poor messages make debugging harder, especially when searching history to locate bugs
 - Team members may waste time trying to understand what was actually done
 - They hurt long-term project maintainability
+
+
+---
+
+
+## Pull Request (PR) Reflection
+
+### Why are PRs important in a team workflow?
+Pull Requests help teams review code before it’s added to the main branch.  
+They make sure changes are correct, tested, and match team standards.  
+PRs also make teamwork easier — everyone can see what was changed and why.
+
+---
+
+### What makes a well-structured PR?
+- Has a short, clear title  
+- Explains what the change does and why it’s needed  
+- Includes screenshots or test results if helpful  
+- Links to related issues or tasks  
+- Keeps changes small and easy to review  
+
+---
+
+### What did I learn from reviewing an open-source PR?
+I saw that developers write detailed explanations and discuss changes in comments.  
+Reviewers ask questions, give feedback, and suggest improvements.  
+I learned that reviewing code is not just about finding mistakes — it’s about learning, teamwork, and improving the quality of the project.
+
+
+PRs keep the project clean, safe, and easy to understand.  
+They help developers learn from each other and build better software together.
