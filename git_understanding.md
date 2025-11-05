@@ -99,3 +99,71 @@ This prevents accidental overwrites 👏
 
 **Branches help teams work safely without breaking each other’s work, allow proper review, and keep main clean and stable.**
 
+
+
+---
+
+
+##  Git Commands Reflection
+
+### `git checkout main -- <file>`
+
+**What does it do?**  
+Restores a specific file to the version from `main` (or another branch) **without affecting other files**.
+
+**When would this be used in a real project?**  
+- When I make a mistake in only one file and want to undo it quickly
+- When I need the updated version of a file from another branch
+
+**What surprised me?**  
+How easy it is to fix one file without undoing other work in progress.
+
+---
+
+### `git cherry-pick <commit>`
+
+**What does it do?**  
+Applies **one specific commit** from another branch onto the current branch.
+
+**When would this be used in a real project?**  
+- When a bug fix is made in the wrong branch but is needed in `main`
+- When I want only one part of another branch instead of merging everything
+
+**What surprised me?**  
+I can move a single change between branches with just one command - very powerful!
+
+---
+
+### `git log`
+
+**What does it do?**  
+Shows commit history (who changed what and when).  
+With flags like `--oneline --graph --decorate --all`, it also shows branches visually.
+
+**When would this be used in a real project?**  
+- To understand development history before testing a feature
+- To locate where a change was introduced
+- During code reviews or release planning
+
+**What surprised me?**  
+It provides so much information in a very readable way, especially with graphs and branch labels.
+
+---
+
+### `git blame <file>`
+
+**What does it do?**  
+Shows who last modified each line in a file and in which commit.
+
+**When would this be used in a real project?**  
+- Debugging to find which commit introduced a bug
+- Knowing who to ask about a specific change
+- Tracking changes to critical code
+
+**What surprised me?**  
+How specific it is, every line has a detailed history!
+
+---
+
+
+
