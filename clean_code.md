@@ -9,6 +9,7 @@ Clean code is code that is simple, readable, consistent, easy to maintain, and e
 ---
 
 ## Simplicity
+
 Do only what is necessary — avoid unnecessary complexity.
 
 Good Example:
@@ -20,6 +21,7 @@ Bad Example:
 ---
 
 ## Readability
+
 Code should be easy to understand at first glance.
 
 Good Example:
@@ -31,6 +33,7 @@ Bad Example:
 ---
 
 ## Maintainability
+
 Future developers should easily update the code.
 
 Example:
@@ -44,6 +47,7 @@ Example:
 ---
 
 ## Consistency
+
 Follow the same style rules throughout the project.
 
 Good Example:
@@ -61,6 +65,7 @@ Bad Example:
 ---
 
 ## Efficiency
+
 Write performant code, but only after the code is clear.
 
 Good Example:
@@ -81,11 +86,12 @@ Bad Example:
     }
     }
 
-
 ---
- ## Messy vs Clean Code Example-Sum of Negative Numbers
+
+## Messy vs Clean Code Example-Sum of Negative Numbers
 
 ### Messy Code
+
 ```java
 int[] n = {1, -4, 3, -2, 5};
 int s = 0;
@@ -98,7 +104,8 @@ System.out.println(s);
 ```
 
 ### Clean Code
-``` java 
+
+```java
 int[] numbers = {1, -4, 3, -2, 5};
 int sumOfNegatives = 0;
 
@@ -115,4 +122,26 @@ System.out.println(sumOfNegatives);
 - Clean structure and formatting
 - Enhanced readability
 - Logic is easy to understand
+```
 
+---
+
+# Reflection
+
+**Why is code formatting important?**
+
+Code formatting keeps the code clear and consistent. When everything looks the same, the code is much easier to read, review, and maintain. It helps avoid confusion and prevents mistakes.
+
+---
+
+**What issues did the linter detect?**
+
+The linter did not show any major issues in my codebase. This means the rules were followed correctly. If there were problems, ESLint would list them and suggest fixes. Running the linter confirmed that the code meets the required standards.
+
+---
+
+**Did formatting the code make it easier to read?**
+
+Yes. After running Prettier and enabling auto-format on save, the code became more organized and easier to read. Formatting fixed spacing, quotes, semicolons, and made everything much cleaner.
+
+---
