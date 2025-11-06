@@ -145,3 +145,69 @@ The linter did not show any major issues in my codebase. This means the rules we
 Yes. After running Prettier and enabling auto-format on save, the code became more organized and easier to read. Formatting fixed spacing, quotes, semicolons, and made everything much cleaner.
 
 ---
+
+## Variable Naming – Unclear variables vs Clean variables
+
+### Messy Code (unclear names)
+
+```js
+let x = [2, -3, 5];
+let s = 0;
+
+for (let i = 0; i < x.length; i++) {
+  if (x[i] < 0) {
+    s += x[i];
+  }
+}
+
+console.log(s);
+```
+
+- x does not describe what the values represent
+
+- s doesn’t tell what is being calculated
+
+- Hard to understand the purpose without reading the logic
+
+### Clean Code (clear names)
+
+```js
+let numbers = [2, -3, 5];
+let sumOfNegatives = 0;
+
+for (let number of numbers) {
+  if (number < 0) {
+    sumOfNegatives += number;
+  }
+}
+
+console.log(sumOfNegatives);
+```
+
+- numbers explains what the array contains
+
+- sumOfNegatives shows the meaning and purpose of the result
+
+- Code is easier for others to read and understand
+
+---
+
+## Reflection
+
+**What makes a good variable or function name?**
+
+A good name clearly describes what the variable stores or what the function does. It should be simple, consistent, and easy to understand without needing comments. Good naming helps other developers quickly understand the purpose of the code.
+
+---
+
+**What issues can arise from poorly named variables?**
+
+Poorly named variables make the code confusing and harder to read. Developers may misunderstand the purpose of the data, which can lead to bugs, mistakes, and longer debugging time. It slows down teamwork and maintenance.
+
+---
+
+**How did refactoring improve code readability?**
+
+Refactoring by renaming variables and functions made the intention of the code clear. I can now understand what each part does at a glance, without guessing. The code became more organized, structured, and professional.
+
+---
