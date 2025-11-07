@@ -211,3 +211,53 @@ Poorly named variables make the code confusing and harder to read. Developers ma
 Refactoring by renaming variables and functions made the intention of the code clear. I can now understand what each part does at a glance, without guessing. The code became more organized, structured, and professional.
 
 ---
+
+## Example of a Long Function (3 Responsibilities)
+
+```js
+function handleScore(playerScore) {
+  // Validate score
+  if (playerScore < 0) {
+    console.log('Invalid score');
+    return;
+  }
+
+  // Update high score
+  if (playerScore > highScore) {
+    highScore = playerScore;
+    console.log('New high score!');
+  }
+
+  // Display result
+  console.log('Your score is ' + playerScore);
+}
+```
+
+## Refactored Version
+
+```js
+function isScoreValid(score) {
+  return score >= 0;
+}
+
+function updateHighScore(score) {
+  if (score > highScore) {
+    highScore = score;
+    console.log('New high score!');
+  }
+}
+
+function displayScore(score) {
+  console.log('Your score is ' + score);
+}
+```
+
+## Reflection
+
+**Why is breaking down functions beneficial?**
+
+Breaking down functions into smaller parts makes the code easier to read, test, and maintain. Each small function has one clear job, which reduces confusion and helps prevent bugs.
+
+**How did refactoring improve the structure of the code?**
+
+After refactoring, the code became more organized and logical. Each function now focuses on a single task, and the main function reads like a list of simple actions. This structure makes the code easier to understand and modify.
