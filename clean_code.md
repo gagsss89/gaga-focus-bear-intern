@@ -352,7 +352,9 @@ This improves testing and readability.
 ## Reflection
 
 **What made the original code complex?**
+
 In the example “Example of a Long Function (3 Responsibilities)”, the original code was complex because one function was doing several different things — it validated the score, updated the high score, and displayed the result. Having all these actions inside one function made it harder to understand and maintain. If one part needed a change, the whole function had to be edited.
 
 **How did refactoring improve it?**
+
 After refactoring, the code was split into smaller functions — isScoreValid(), updateHighScore(), and displayScore(). Each function now has a single, clear purpose. This made the main function shorter and easier to read. The structure became more organized, and changes can now be made in one small place without affecting other parts of the code.
