@@ -358,3 +358,61 @@ In the example “Example of a Long Function (3 Responsibilities)”, the origin
 **How did refactoring improve it?**
 
 After refactoring, the code was split into smaller functions — isScoreValid(), updateHighScore(), and displayScore(). Each function now has a single, clear purpose. This made the main function shorter and easier to read. The structure became more organized, and changes can now be made in one small place without affecting other parts of the code.
+
+---
+
+## Commenting & Documentation
+
+**Example of Poorly Commented Code**
+
+```
+// loop
+for (let i = 0; i < arr.length; i++) {
+// add
+  total = total + arr[i];
+}
+// print
+console.log(total);
+```
+
+**Example of better Commented Code**
+
+```
+// Loop through all items in the array and calculate the total sum
+for (let i = 0; i < arr.length; i++) {
+  total += arr[i];
+}
+
+// Display the total result in the console
+console.log("Total sum:", total);
+```
+
+- Use simple language
+- Avoid long paragraphs
+- Always use the same type of comment (e.g., // or /\*\* \*/)
+- Follow your team’s or project’s documentation rules
+- Write comments that explain why, not what
+- Keep comments accurate and useful
+
+---
+
+**When should you add comments?**
+
+You should add comments when the code is not immediately clear or when it contains logic that isn’t obvious. Comments are helpful if you need to explain why something was done a certain way, give context, or describe a complex part that future developers might find confusing.
+
+**When should you avoid comments and instead improve the code?**
+
+You should avoid adding comments when the code itself can be made clearer.
+If you find yourself writing a comment like “this line adds one to the number of users,” it means the code could be improved by using a better name or structure instead.
+For example:
+
+```
+// Add 1 to the number of users
+count = count + 1;
+```
+
+instead of this, we can write:
+
+```
+userCount++;
+```
