@@ -261,3 +261,32 @@ Breaking down functions into smaller parts makes the code easier to read, test, 
 **How did refactoring improve the structure of the code?**
 
 After refactoring, the code became more organized and logical. Each function now focuses on a single task, and the main function reads like a list of simple actions. This structure makes the code easier to understand and modify.
+
+---
+
+## The DRY (Don't Repeat Yourself) Principle
+
+**DRY** stands for **Don't Repeat Yourself** - a key clean code principle that says:
+
+> Every piece of knowledge or logic should exist in only one place in the codebase.
+
+If you find yourself copying and pasting code or logic, it’s time to **refactor** it into a function, class, or shared module.
+
+---
+
+### Why DRY is Important?
+
+- **Less duplication:** Avoids repeating the same code in multiple places.
+- **Easier maintenance:** Fix a bug or make a change in one place instead of many.
+- **Consistency:** Prevents small differences between repeated code that can cause bugs.
+- **Smaller codebase:** Cleaner, easier to navigate and understand.
+
+---
+
+**What were the issues with duplicated code?**
+
+When the same code was written in many places, it became harder to change or fix. If one part needed an update, I had to change it everywhere. That made the code confusing and easy to break.
+
+**How did refactoring improve maintainability?**
+
+After cleaning up the repeated code and putting it into one shared method, it became easier to update. Now, if something needs to change, I only fix it once, and everything stays the same and works better.
