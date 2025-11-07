@@ -126,7 +126,7 @@ System.out.println(sumOfNegatives);
 
 ---
 
-# Reflection
+## Reflection
 
 **Why is code formatting important?**
 
@@ -290,3 +290,69 @@ When the same code was written in many places, it became harder to change or fix
 **How did refactoring improve maintainability?**
 
 After cleaning up the repeated code and putting it into one shared method, it became easier to update. Now, if something needs to change, I only fix it once, and everything stays the same and works better.
+
+---
+
+## Refactoring Code for Simplicity
+
+Refactoring means improving the internal structure of code **without changing what it does**.  
+It helps make the code cleaner, easier to read, and easier to maintain.
+
+**Extract Method**
+
+Move a piece of code into a separate method or function.
+
+**Rename Variable or Function**
+
+Use clear and meaningful names.
+
+Bad examlpe:
+
+`let x = 20;
+function f(y) { return y * 2; }`
+
+Good example:
+
+`let itemPrice = 20;
+function doubleValue(number) { return number * 2; }`
+
+**Remove Duplicated Code**
+
+If the same code appears in multiple places, combine it into one shared method. It is easier to maintain, change once, fix everywhere.
+
+**Simplify Conditional Logic**
+
+Bad example:
+
+`if (age > 17) {
+  canVote = true;
+} else {
+  canVote = false;
+}`
+
+Good example:
+
+`canVote = age > 17`;
+
+**Extract Common Code into Utilities**
+
+If multiple files use the same logic (e.g., waits, login), move it into a helper or utils file.
+
+**Remove Dead or Unused Code**
+
+Delete old functions or variables that are never used, they just create confusion.
+
+**Break Large Functions into Smaller Ones**
+
+Each function should have one purpose.
+This improves testing and readability.
+
+---
+
+## Reflection
+
+**What made the original code complex?**
+In the example “Example of a Long Function (3 Responsibilities)”, the original code was complex because one function was doing several different things — it validated the score, updated the high score, and displayed the result. Having all these actions inside one function made it harder to understand and maintain. If one part needed a change, the whole function had to be edited.
+
+**How did refactoring improve it?**
+After refactoring, the code was split into smaller functions — isScoreValid(), updateHighScore(), and displayScore(). Each function now has a single, clear purpose. This made the main function shorter and easier to read. The structure became more organized, and changes can now be made in one small place without affecting other parts of the code.
