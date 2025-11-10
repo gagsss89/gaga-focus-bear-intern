@@ -416,3 +416,38 @@ instead of this, we can write:
 ```
 userCount++;
 ```
+
+---
+
+# Handling Errors & Edge Cases
+
+**Function that doesn’t properly handle errors or invalid inputs**
+
+```
+public static int divide(int a, int b) {
+    return a / b;
+}
+```
+
+**Refactored Function**
+
+```
+public static int divide(int a, int b) {
+    if (b == 0) {
+        System.out.println("Error: Cannot divide by zero.");
+        return 0; // or throw an exception
+    }
+    return a / b;
+}
+
+```
+
+**Reflections**
+
+**What was the issue with the original code?**
+
+The original function didn’t handle invalid input, it assumed all inputs were valid. For example, dividing by zero caused the program to crash without any helpful message. There was no validation or guard clause to prevent such runtime errors. This made the function unsafe and difficult to maintain.
+
+**How does handling errors improve reliability?**
+
+By adding proper error handling and guard clauses, the program can detect problems early and respond gracefully instead of crashing. It improves reliability because the code behaves predictably even in unexpected situations. Users and developers get clear feedback about what went wrong, making debugging easier and preventing system failures.
