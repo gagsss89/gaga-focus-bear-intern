@@ -451,3 +451,7 @@ The original function didn’t handle invalid input, it assumed all inputs were 
 **How does handling errors improve reliability?**
 
 By adding proper error handling and guard clauses, the program can detect problems early and respond gracefully instead of crashing. It improves reliability because the code behaves predictably even in unexpected situations. Users and developers get clear feedback about what went wrong, making debugging easier and preventing system failures.
+
+---
+
+# Testing CI Workflow
