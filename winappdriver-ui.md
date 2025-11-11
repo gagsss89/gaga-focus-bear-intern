@@ -5,26 +5,23 @@
 **Use inspect.exe or Appium Desktop to locate UI elements**
 
 ### Inspect.exe Example: Locating a UI Element
+
 (https://github.com/gagsss89/gaga-focus-bear-intern/blob/main/FocusBear%20UI%20Element.png)
 
 Here is an example where I inspected the **Select Language** dropdown inside the Focus Bear Windows app.
 
-
 Inspect.exe shows useful element properties:
 
-- **ControlType**: Combo box 
+- **ControlType**: Combo box
 - **AutomationId**: cmbLanguage
 - **FrameworkId**: "WPF"
 - **ClassName**: "ComboBox"
 
 📌 Based on these properties, a valid WinAppDriver locator could be:
 
-
         driver.findElement(By.id("cmbLanguage")).click();
 
-
 ---
-
 
 **Write a test that clicks a button and verifies the result**
 
@@ -42,6 +39,7 @@ https://github.com/gagsss89/gaga-focus-bear-intern/blob/main/SaveHabitsBTN.png
     //Verify expected result — example: success message appears
     WebElement confirmationMessage = driver.findElement(By.name("Successfully added habit"));
     assertTrue(confirmationMessage.isDisplayed());
+
 }
 
 ---
@@ -64,14 +62,13 @@ https://github.com/gagsss89/gaga-focus-bear-intern/blob/main/inputField%20Screen
     // Verify typed value
     String actualText = habitInput.getAttribute("Value.Value");
     assertEquals(expectedText, actualText);
-}
 
+}
 
 **Note**
 
 habitInput.getAttribute("Value.Value"); - What text is currently stored inside this input field?
 This makes it the correct way to verify text entry for desktop apps — instead of .getText() which often returns empty string in Windows UI automation.
-
 
 **Additional Note:**
 
@@ -88,5 +85,40 @@ This shows the difference in automation strategies between **native Windows UI**
 
 **Handle modal dialogs and dropdown interactions**
 
+Modal dialogs are small windows that require the user to confirm or cancel an action before continuing.
+They can be automated by locating the dialog and clicking a button inside it.
 
+**Example**
 
+```WebElement confirmDialog = driver.findElement(By.name("Confirm Exit"));
+WebElement okButton = confirmDialog.findElement(By.name("OK"));
+okButton.click();
+```
+
+**Dropdown Interaction**
+
+In Focus Bear, I used Inspect.exe to inspect the Select Language dropdown inside the settings window.
+
+Inspect.exe Properties:
+
+- ControlType: ComboBox
+- AutomationId: cmbLanguage
+- FrameworkId: WPF
+- ClassName: ComboBox
+
+```
+@Test
+public void testSelectLanguageDropdown() {
+    // Open the dropdown
+    WebElement dropdown = driver.findElement(By.id("cmbLanguage"));
+    dropdown.click();
+
+    // Select an option (example: English)
+    WebElement option = driver.findElement(By.name("English"));
+    option.click();
+
+    // Verify selected value
+    String selectedValue = dropdown.getAttribute("Value.Value");
+    assertEquals("English", selectedValue);
+}
+```
