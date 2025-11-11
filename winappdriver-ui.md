@@ -17,7 +17,7 @@ Inspect.exe shows useful element properties:
 - **FrameworkId**: "WPF"
 - **ClassName**: "ComboBox"
 
-📌 Based on these properties, a valid WinAppDriver locator could be:
+Based on these properties, a valid WinAppDriver locator could be:
 
         driver.findElement(By.id("cmbLanguage")).click();
 
