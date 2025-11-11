@@ -122,3 +122,38 @@ public void testSelectLanguageDropdown() {
     assertEquals("English", selectedValue);
 }
 ```
+
+---
+
+## Reflection
+
+**How do you locate and interact with Windows UI elements in WinAppDriver?**
+
+In WinAppDriver, I use Inspect.exe to find details about each UI element in the app, such as its name, control type, or automation ID.
+Once I have that information, I can write locators in my test to find and interact with the element.
+Common actions include clicking buttons, typing into text boxes, opening dropdowns, and verifying text or values.
+These actions help automate how a user would normally interact with the Windows app.
+
+**What are the different ways to find elements (e.g., XPath, Accessibility ID)?**
+
+There are several ways to locate elements in WinAppDriver:
+
+- AutomationId - the most reliable and preferred method if available.
+- Name - uses the visible label of the element.
+- XPath - helpful when AutomationId is missing, especially in WebViews or complex UIs.
+- ClassName or ControlType - sometimes used to identify elements by type.
+
+**How would you handle UI elements that load dynamically?**
+
+Some UI elements take time to appear, especially after clicking a button or switching tabs.
+To handle that, I use waits in my test, for example, WebDriverWait or Thread.sleep() to pause until the element becomes visible.
+This helps avoid errors like “element not found” or “stale element.”
+Another option is to check for the element in a loop until it shows up.
+
+**What are common challenges when automating native Windows UI interactions?**
+
+- Some elements don’t have AutomationIds, which makes them harder to find.
+- Apps with WebViews (like Focus Bear) can mix web and native elements, which need different locator strategies.
+- Timing issues - some elements appear slowly or change position.
+- Flaky tests can happen if the app UI changes after updates.
+- Sometimes WinAppDriver doesn’t recognize custom controls or third-party UI frameworks.
