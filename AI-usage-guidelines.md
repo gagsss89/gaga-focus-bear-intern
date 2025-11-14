@@ -31,3 +31,5 @@
 https://github.com/gagsss89/gaga-focus-bear-intern/blob/main/ChatGPT.png
 
 https://github.com/gagsss89/gaga-focus-bear-intern/blob/main/chatGPT-terminal.png
+
+---
