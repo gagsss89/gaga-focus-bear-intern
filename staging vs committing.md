@@ -38,8 +38,8 @@ Edited the file in VS Code.
 Ran the following commands in my terminal:
 
 - git status
-- git add staging-vs-committing.md # staged the changes
-- git status # checked what’s staged
+- git add staging-vs-committing.md - staged the changes
+- git status - checked what’s staged
 - git commit -m "Added staging vs committing reflection"
 - git push origin main
 
