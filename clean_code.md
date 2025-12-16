@@ -192,6 +192,32 @@ console.log(sumOfNegatives);
 
 ---
 
+_Before: Unclear Naming (from an E2E desktop automation test)_
+
+```python
+def test_1(app):
+    s = app.win
+    s.b1.click()
+    s.t1.type_keys("Dark")
+    assert s.l1.texts()[0] == "Dark"
+```
+
+After
+
+```
+def test_user_can_change_theme(app):
+    settings_window = app.settings_window
+
+    change_theme_button = settings_window.change_theme_button
+    theme_input = settings_window.theme_input
+    selected_theme_label = settings_window.selected_theme_label
+
+    change_theme_button.click()
+    theme_input.type_keys("Dark")
+
+    assert selected_theme_label.texts()[0] == "Dark"
+```
+
 ## Reflection
 
 **What makes a good variable or function name?**
